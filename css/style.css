@@ -1,0 +1,412 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #435766;
+}
+
+a {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #435766;
+	text-decoration: none;
+}
+
+.button {
+	border-radius: 4px;
+	background: #8dd83d;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.7s ease 0s;
+}
+
+.button:hover {
+	background: #509705;
+	box-shadow: 0 0 10px 0 #509705;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	background: #373a3c;
+	padding: 15px 0;
+	border-bottom: 2px solid#777;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+}
+
+.header-logo img {
+	height: 29px;
+}
+
+.header-menu {
+	flex: 1 1 auto;
+}
+
+.header-menu-body {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.header-menu-item {
+	margin: 0 0 0 37px;
+}
+
+.header-menu-link {
+	transition: all 0.7s ease 0s;
+}
+
+.header-menu-link:hover {
+	color: #ffffff;
+	text-shadow: 0 0 5px #ffffff;
+}
+
+.header-search {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: flex;
+	padding: 10px 15px;
+	outline: none;
+	align-items: center;
+}
+
+.home {
+	min-height: calc(100vh - 67px);
+	background: url(../images/battlefront-II.jpg) no-repeat center / cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-title {
+	color: #fff;
+	font-size: 75px;
+	font-weight: 400;
+}
+
+.home-subtitle {
+	color: #fff;
+	font-size: 24px;
+	margin: 0 0 100px 0;
+}
+
+.home-button {
+	min-width: 136px;
+	padding: 8px 20px;
+}
+
+.best {
+	padding: 60px 0 160px 0;
+	background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.best-logo {
+	display: block;
+	margin: 0 auto 16px auto;
+	height: 64px;
+}
+
+.best-title {
+	color: #fff;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+.best-title-big {
+	display: block;
+	font-size: 48px;
+}
+
+.cards-row {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.card {
+	border-radius: 4px;
+	border: 1px solid #8dd83d;
+	background: #fff;
+	overflow: hidden;
+	flex: 0 0 320px;
+	width: 320px;
+}
+
+.card-image {
+	height: 180px;
+}
+
+.best-card-image-1 {
+	background: url(../images/best-card-01.jpg) no-repeat center / cover;
+}
+
+.best-card-image-2 {
+	background: url(../images/best-card-02.jpg) no-repeat center / cover;
+}
+
+.best-card-image-3 {
+	background: url(../images/best-card-03.jpg) no-repeat center / cover;
+}
+
+.card-content {
+	padding: 20px;
+}
+
+.card-title {
+	color: #435766;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 10px 0;
+}
+
+.card-text {
+	color: #435766;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 35px 0;
+}
+
+.card-text-block {
+	display: block;
+}
+
+.card-batton {
+	padding: 20px;
+}
+
+.exclusive {
+	padding: 70px 0 140px 0;
+	background: url(../images/exclusive-bg.jpg) no-repeat center / cover;
+}
+
+.exclusive-title {
+	color: #8dd83d;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 0 0 75px 0;
+}
+
+.exclusive-row {
+	margin: 0 0 90px 0;
+}
+
+.exclusive-card-image-1 {
+	background: url(../images/exclusive-image-1.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-2 {
+	background: url(../images/exclusive-image-2.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-3 {
+	background: url(../images/exclusive-image-3.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-4 {
+	background: url(../images/exclusive-image-4.jpg) no-repeat center / cover;
+}
+
+.exclusive-button {
+	background: #435766;
+	max-width: 200px;
+	padding: 16px;
+	margin: 0 auto;
+}
+
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../images/Stellar-Shift-Wire.jpg) no-repeat center / cover;
+}
+
+.container {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+
+.pads-title {
+	font-size: 45px;
+	line-height: 53px;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 37px;
+	max-width: 520px;
+}
+
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.pads-button {
+	padding: 15px 45px;
+	background: #014979;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+
+.pads-button:hover {
+	background-color: #00ffff;
+}
+
+.duty {
+	min-height: 100vh;
+	background: url(../images/home-duty-bg.jpg) no-repeat center / cover;
+}
+
+.container-duty {
+	min-height: 100vh;
+}
+
+.duty-content {
+	min-height: 100vh;
+	max-width: 305px;
+	margin: 0 0 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.duty-title {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.duty-subtitle {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 0 130px 0;
+}
+
+.duty-row {
+	display: flex;
+	gap: 10px;
+}
+
+.duty-button {
+	padding: 9px 20px;
+}
+.footer {
+	padding: 58px 0 0 0;
+	background: #4c53af;
+}
+
+.footer-content {
+	display: flex;
+}
+
+.footer-block {
+	flex: 0 0 33.333%;
+	padding: 0 0 0 65px;
+}
+
+.footer-title {
+	margin: 0 0 34px 0;
+	font-size: 18px;
+	line-height: 21px;
+	color: #7dd42f;
+}
+
+.footer-link {
+	display: block;
+	margin: 0 0 28px 0;
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-social {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 40px 0;
+	border-top: 1px soild #ffffff;
+}
+
+.footer-text {
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.trailer {
+	background: radial-gradient(
+		100% 100% at 50% 0%,
+		rgba(76, 80, 82, 0.1) 0%,
+		rgba(95, 98, 101, 0.1) 100%
+	);
+	padding: 100px 0 40px 0;
+}
+
+.trailer-title {
+	color: #435766;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+.trailer-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-self: center;
+	gap: 15px;
+}
+
+.trailer-button {
+	padding: 15px 20px;
+	margin: 0 0 40px 0;
+}
+
+.trailer-video {
+	display: block;
+	width: 800px;
+	height: 450px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
